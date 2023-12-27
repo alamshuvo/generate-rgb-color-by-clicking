@@ -48,3 +48,22 @@ h1{
         7px 4px 0 #fff;
         text-align: center;
 }
+@media  (max-width: 600px) {
+    body{
+        font-size: 20px;
+        width: 100%;
+    }
+    h1{
+        font-size: 45px;
+        font-weight: bold;
+        color: #dfdfdf;
+        /* text-align: center; */
+        letter-spacing: 5px;
+        text-shadow: 4px 4px 0px #000, 
+            -4px 0 0px #000,
+            7px 4px 0 #fff;
+            text-align: center;
+
+    }
+    
+}
